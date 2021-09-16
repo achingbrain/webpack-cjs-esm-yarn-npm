@@ -6,6 +6,6 @@ async function main () {
   await ipfs.stop()
 }
 
-main().catch((err:any) => {
+main().catch((err) => {
   console.error(err)
 })
