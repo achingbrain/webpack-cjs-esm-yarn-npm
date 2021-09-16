@@ -1,4 +1,4 @@
-import { create } from 'ipfs'
+import { create } from 'ipfs-core'
 
 async function main () {
   const ipfs = await create()
