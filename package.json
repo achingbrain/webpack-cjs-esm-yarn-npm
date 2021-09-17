@@ -8,7 +8,7 @@
     "build": "webpack --color"
   },
   "dependencies": {
-    "ipfs-core": "^0.10.6"
+    "ipfs-unixfs-importer": "^9.0.6"
   },
   "devDependencies": {
     "util": "^0.12.4",

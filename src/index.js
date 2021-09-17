@@ -1,9 +1,7 @@
-import { create } from 'ipfs-core'
+import { importer } from 'ipfs-unixfs-importer'
 
 async function main () {
-  const ipfs = await create()
-
-  await ipfs.stop()
+  console.info(importer)
 }
 
 main().catch((err) => {
